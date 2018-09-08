@@ -4,7 +4,7 @@
 ![GitHub release](https://img.shields.io/github/release/JGriffin34432/Skywarn.svg)
 [![Discord Server](https://discordapp.com/api/guilds/355475139451682828/embed.png)](https://discord.io/MarionStationEAS)
 [![Patreon](http://ionicabizau.github.io/badges/patreon.svg)](https://patreon.com/SPCJGriffin2459)
-[![Build Status](https://semaphoreci.com/api/v1/jgriffin34432/skywarn/branches/master/badge.svg)](https://semaphoreci.com/jgriffin34432/skywarn)
+[![Build Status](https://semaphoreci.com/api/v1/jgriffin34432/skywarn-2/branches/master/badge.svg)](https://semaphoreci.com/jgriffin34432/skywarn-2)
 [![Discord Bots List Owner](https://discordbots.org/api/widget/owner/434112673072807936.svg)](https://discordbots.org/bot/434112673072807936)
 
 # Skywarn
