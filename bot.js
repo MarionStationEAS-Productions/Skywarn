@@ -216,7 +216,7 @@ client.on("message", async (message) => {
     timestamp: new Date(),
     footer: {
       icon_url: client.user.avatarURL,
-      text: "© MarionStationFM Productions 2018"
+      text: "© MarionStationEAS Productions 2018"
     }
   }
 });
