@@ -79,20 +79,8 @@ var commands = [];
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
   client.user.setStatus('online');
+            client.user.setActivity('!weather <zip code> | #StayWeatherAware', { type: 'Listening' });
 
-  setInterval(() => {
-    setTimeout(() => {
-      client.user.setActivity('Follow me on Twitter: @SPCJG2459_WX', { type: 'Playing'});
-    }, 10000);
-    setTimeout(() => {
-            client.user.setActivity('!weather <zip code> | #StayWeatherAware', { type: 'Playing' });
-    }, 10000);
-    setTimeout(() => {
-            client.user.setActivity('the NWS in Greenville-Spartanburg, SC.', { type: 'Listening' });
-    }, 10000);
-
-  }, 10000);
-});
 
 
 //on bot message
