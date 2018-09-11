@@ -1,7 +1,7 @@
 # CITY NAMES ARE STILL BUGGY, SO I STILL RECOMMEND USING A ZIP CODE!!!!
 
 ![David](https://img.shields.io/david/JGriffin34432/Skywarn.svg)
-![GitHub release](https://img.shields.io/github/release/JGriffin34432/Skywarn.svg)
+![GitHub release](https://img.shields.io/github/release/MarionStationEAS-Productions/Skywarn.svg)
 [![Discord Server](https://discordapp.com/api/guilds/355475139451682828/embed.png)](https://discord.io/MarionStationEAS)
 [![Patreon](http://ionicabizau.github.io/badges/patreon.svg)](https://patreon.com/SPCJGriffin2459)
 [![Build Status](https://semaphoreci.com/api/v1/jgriffin34432/skywarn-2/branches/master/badge.svg)](https://semaphoreci.com/jgriffin34432/skywarn-2)
