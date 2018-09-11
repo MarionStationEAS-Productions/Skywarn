@@ -207,7 +207,7 @@ client.on("message", async (message) => {
       },
       {
         name: "How do I support the bot?",
-        value: "You can do the following: either [Upvote](https://discordbots.org/bot/434112673072807936/vote)"
+        value: "You can do the following: either [Upvote](https://discordbots.org/bot/434112673072807936/vote) [Donate](https://paypal.me/MarionStationEAS)"
       },
       {
         name: "Uptime",
