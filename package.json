@@ -1,6 +1,6 @@
 {
   "name": "skywarn",
-  "version": "2.4.1",
+  "version": "2.4.4",
   "description": "The most basic weather bot you will ever need.",
   "main": "bot.js",
   "scripts": {
