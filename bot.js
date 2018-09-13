@@ -79,8 +79,10 @@ var commands = [];
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
   client.user.setStatus('online');
-  client.user.setGame('Tracking Hurricane Florence | !help')
+  client.user.setGame('your weather forecast. | !help')
 });
+
+
 
 
 
@@ -130,14 +132,14 @@ client.on('message', (message) => {
           console.log("Somebody requested the weather.");
 
         const embed = new Discord.RichEmbed()
-        
-        .setTitle("Here is your forecast")
+
+        .setTitle("Here is your forecast " + message.author.username)
 
 		.setColor(0x48E2EC)
 
 		.setDescription("__**"+p.name+" Weather | "+Math.round(kelToFar(p.main.temp))+"°F "+emoj(p.weather[0].icon)+"**__ \n"+p.weather[0].main+" with a high of **"+Math.round(kelToFar(p.main.temp_max))+"°F** and a low of **"+Math.round(kelToFar(p.main.temp_min))+"°F** \nHumidity at **"+p.main.humidity+"%** and Atmospheric Pressure at **"+p.main.pressure+" hPa** \nWind speed **"+Math.round(p.wind.speed * 2.997446 * 100) / 100+" mph** from bearing **"+p.wind.deg+"°** \nSunrise **"+realTime(p.sys.sunrise)+"**, Sunset **"+realTime(p.sys.sunset)+"** \nMeasured at Longitude **"+p.coord.lon+"**, Latitude **"+p.coord.lat+"** \n*Powered by OpenWeatherMap <:openweathermap:460492652907986955>*")
 
-		.setFooter("Skywarn");
+		.setFooter("The number one simplest weather bot. 🌩");
           message.channel.send({embed})
 
         }
@@ -290,6 +292,7 @@ http://4.bp.blogspot.com/-bt6H9Gace5w/TW_f0_7PC0I/AAAAAAAAAp0/FQpLzY9Nw88/s1600/
 		message.channel.send({embed})
 
 	}
+
 
 
 
