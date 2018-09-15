@@ -231,14 +231,18 @@ client.on("message", async (message) => {
 
 	if (command === "eas") {
 
-		message.channel.send(
+		const embed = new Discord.RichEmbed()
 
-`The Emergency Alert System (EAS) is a national warning system in the United States put into place on January 1, 1997 (approved by Federal Communications Commission (FCC) in November 1994),[1] when it replaced the Emergency Broadcast System (EBS), which in turn replaced the CONELRAD System. The official EAS is designed to enable the President of the United States to speak to the United States within 10 minutes.[2] In addition to this requirement, EAS is also designed to alert the public of local weather emergencies such as tornadoes and flash floods (and in some cases severe thunderstorms depending on the severity of the storm). The most recent National EAS Test was performed on September 27, 2017 at 2:20 pm EDT (11:20 am PDT).[3]
-EAS is jointly coordinated by the Federal Emergency Management Agency (FEMA), the Federal Communications Commission (FCC) and the National Weather Service (NOAA/NWS). The EAS regulations and standards are governed by the Public Safety and Homeland Security Bureau of the FCC. EAS has become part of Integrated Public Alert and Warning System (IPAWS), a program of FEMA.
+    .setTitle("What is the Emergency Alert System?")
+    .setURL("https://www.fcc.gov/general/emergency-alert-system-eas")
 
-Source: <https://en.wikipedia.org/wiki/Emergency_Alert_System>
+    .setDescription("The Emergency Alert System (EAS) is a national public warning system that requires broadcasters, cable television systems, wireless cable systems, satellite digital audio radio service (SDARS) providers, and direct broadcast satellite (DBS) providers to provide the communications capability to the President to address the American public during a national emergency. The system also may be used by state and local authorities to deliver important emergency information, such as AMBER alerts and weather information targeted to specific areas.")
 
-http://4.bp.blogspot.com/-bt6H9Gace5w/TW_f0_7PC0I/AAAAAAAAAp0/FQpLzY9Nw88/s1600/EAS.jpg`);
+    .setImage("https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Eas_new.svg/1200px-Eas_new.svg.png")
+
+    .setFooter("Source: FCC.gov");
+
+    message.channel.send({embed})
 
 
 	} else
