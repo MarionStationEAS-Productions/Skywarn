@@ -28,6 +28,18 @@ dbl.on('error', e => {
 })
 
 
+/*
+ * Add the following line event listener to your code to handle 'error' events properly:
+ *
+ * events.js:188
+ *     throw err;
+ *    ^
+ *
+ * Error: Unhandled "error" event. ([object Object])
+ *   at Client.emit (events.js:186:19)
+*/
+
+client.on('error', console.error);
 
 
 client.on("guildCreate", guild => {
