@@ -2,9 +2,8 @@
 
 ![David](https://img.shields.io/david/JGriffin34432/Skywarn.svg)
 ![GitHub release](https://img.shields.io/github/release/MarionStationEAS-Productions/Skywarn.svg)
-[![Discord Server](https://discordapp.com/api/guilds/355475139451682828/embed.png)](https://discord.io/MarionStationEAS)
 [![Patreon](http://ionicabizau.github.io/badges/patreon.svg)](https://patreon.com/SPCJGriffin2459)
-[![Build Status](https://semaphoreci.com/api/v1/jgriffin34432/skywarn-2/branches/master/badge.svg)](https://semaphoreci.com/jgriffin34432/skywarn-2)
+[![Build Status](https://semaphoreci.com/api/v1/jgriffin34432/skywarn/branches/master/badge.svg)](https://semaphoreci.com/jgriffin34432/skywarn)
 [![Discord Bots List Owner](https://discordbots.org/api/widget/owner/434112673072807936.svg)](https://discordbots.org/bot/434112673072807936)
 
 # Skywarn
@@ -19,7 +18,7 @@ Invite the bot: [https://discordapp.com/api/oauth2/authorize?client_id=434112673
 
 # Commands
 
-`!weather <city/zipcode>` - Displays weather based on the closest city near your zip code/city. To do a city name you must do it the way i have it typed out or it will not work. <!weather baltimore,md,us> and cities with two words you must do this <!weather severna+park,md,us> Also some city names do not work, so keep trying until one does. Its not the bot, its the OpenWeatherMap API.
+`!weather <city/zipcode>` - Displays weather based on the closest city near your zip code/city. To do a city name you must do it the way i have it typed out or it will not work. `<!weather baltimore,md,us>` and cities with two words you must do this `<!weather severna+park,md,us>` Also some city names do not work, so keep trying until one does. Its not the bot, its the OpenWeatherMap API.
 
 `!eas` - Displays info about EAS.
 
@@ -32,10 +31,10 @@ Invite the bot: [https://discordapp.com/api/oauth2/authorize?client_id=434112673
 `!invite` Displays invite link to invite the bot to a discord server.
 
 
-# To Do
+# Coming Soon
 
-`Moderation Commands Coming Soon`
+`Moderation`
 
-# Bugs
+`Music`
 
-`Music Commands not working properly`
+`Web/Image Search`
