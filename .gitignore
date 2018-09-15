@@ -35,7 +35,7 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
-ffmpeg/
+
 
 # TypeScript v1 declaration files
 typings/
@@ -62,3 +62,4 @@ typings/
 .next
 
 /config.json
+ffmpeg/
