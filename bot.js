@@ -204,15 +204,15 @@ client.on("message", async (message) => {
     description: "This command provides information about the bot.",
     fields: [{
         name: "Author",
-        value: "<@252084047264743428>"
+        value: "<@252084047264743428> - Skywarn Spotter [NWS/AKQ] | EAS Enthusiast | High School Sophomore"
       },
       {
         name: "What does this bot do?",
         value: "This bot was made for a user to retrieve the weather by using the `!weather` command."
       },
       {
-        name: "How do I support the bot?",
-        value: "You can do the following: either [Upvote](https://discordbots.org/bot/434112673072807936/vote) [Donate](https://paypal.me/MarionStationEAS)"
+        name: "Extra Things",
+        value: "<:discordbot:497875313993449473> [Upvote](https://discordbots.org/bot/434112673072807936/vote) <:paypal:497876694485565440> [Donate](https://paypal.me/MarionStationEAS) <:support:497878801632460801> [Support me on Patreon](https://www.patreon.com/MarionStationEAS)"
       },
       {
         name: "Uptime",
