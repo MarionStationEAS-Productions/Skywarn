@@ -1,5 +1,0 @@
-{
-    "discord.enabled": true,
-    "discord.lowerDetailsEditing": "{currentcolumn}/{currentline} | {filesize} | {workspace}",
-    "discord.detailsEditing": "Editing {filename} | {fulldirname}"
-}
