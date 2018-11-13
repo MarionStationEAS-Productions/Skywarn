@@ -1,5 +1,4 @@
-//requiring needed modules
-const Discord = require('discord.js');
+﻿const Discord = require('discord.js');
 const fs = require("fs")
 const request = require('request');
 const config = require("./config.json");
@@ -12,7 +11,7 @@ const DBL = require("dblapi.js");
 
 
 
-//make Discord bot client
+
 const client = new Discord.Client();
 const prefix = "!"
 const dbl = new DBL(config.dbl, client)
